@@ -22,7 +22,7 @@ public class Successful_voucher_with_top_up {
 	 @Given("I am a new user")
 	
 	public void i_am_a_new_user() throws InterruptedException {
-		
+		 Thread.sleep(360000);
 		System.setProperty("webdriver.chrome.driver","C:/Users/Administrator/Desktop/chromedriver.exe");		
     	driver= new ChromeDriver();  
     	

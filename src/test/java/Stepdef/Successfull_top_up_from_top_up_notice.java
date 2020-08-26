@@ -72,7 +72,7 @@ public class Successfull_top_up_from_top_up_notice {
 	Add_Funds_Notice A1 = new Add_Funds_Notice(driver);
 	A1.click_on_add_funds_button();
 	
-	Thread.sleep(4000);
+	/*Thread.sleep(4000);
 	String subWindowHandler2 = null;
 	Set<String> handles2 = driver.getWindowHandles(); // get all window handles
 	Iterator<String> iterator2 = handles2.iterator();
@@ -83,7 +83,7 @@ public class Successfull_top_up_from_top_up_notice {
 	
 	Thread.sleep(4000);
 	Top_up_Elements T1 = new   Top_up_Elements(driver);
-	T1.click_on_add_payment();
+	T1.click_on_add_payment();*/
 	
 	}
 
