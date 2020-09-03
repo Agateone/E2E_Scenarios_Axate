@@ -1,15 +1,12 @@
 package Stepdef;
 
 import java.io.IOException;
-import java.util.Iterator;
-import java.util.Set;
+
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.testng.Assert;
 import org.testng.annotations.Test;
-import Elements.PopbitchFirstUseNoticeElements;
-import Elements.Popbitch_Wallet_Elements_staging;
-import Elements.Register_Page_Elements;
+
 import cucumber.api.java.en.Given;
 import cucumber.api.java.en.Then;
 import cucumber.api.java.en.When;
@@ -36,9 +33,9 @@ public class Successful_voucher_with_top_up {
 	 @Test(priority=24)
 	@When("I reg and add a voucher with top up ")	
 	public void i_reg_and_add_a_voucher_with_top_up() throws InterruptedException, IOException {
-		 String parentWindowHandler = driver.getWindowHandle();
+		// String parentWindowHandler = driver.getWindowHandle();
 		 Thread.sleep(4000);
-		PopbitchFirstUseNoticeElements w1 = new PopbitchFirstUseNoticeElements(driver);
+		/*PopbitchFirstUseNoticeElements w1 = new PopbitchFirstUseNoticeElements(driver);
         w1.Click_On_Popbitch_First_Use_Notice_Create_Wallet();
         Assert.assertTrue(true);
          
@@ -70,7 +67,7 @@ public class Successful_voucher_with_top_up {
 	String actual_balance="13.00";
 	Assert.assertEquals(your_balance, actual_balance);	
 	Thread.sleep(4000);		
-	P1.Click_On_popbitch_wallet_Top_up();
+	P1.Click_On_popbitch_wallet_Top_up();*/
 	}
 
 	 @Test(priority=25)
